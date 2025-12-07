@@ -76,5 +76,5 @@ Tras el análisis, se determinó que la **Tienda 4** es la candidata ideal para 
 3.  Abre el notebook en tu entorno favorito (Jupyter o Colab) y ejecuta las celdas secuencialmente.
 
 ---
-**Autor:** [Tu Nombre]  
+**Autor:** Miguel Angel Tapiero Escobar 
 **Curso:** Formación en Ciencia de Datos - Alura Latam
