@@ -67,7 +67,7 @@ Tras el análisis, se determinó que la **Tienda 4** es la candidata ideal para 
 
 1.  Clona el repositorio:
     ```bash
-    git clone [URL_DE_TU_REPOSITORIO]
+    git clone https://github.com/MiguelAngelEsc/Challenge-1-Alura-Store---Data-Science.git
     ```
 2.  Instala las dependencias:
     ```bash
