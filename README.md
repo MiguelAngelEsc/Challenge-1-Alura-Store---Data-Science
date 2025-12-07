@@ -77,4 +77,5 @@ Tras el análisis, se determinó que la **Tienda 4** es la candidata ideal para 
 
 ---
 **Autor:** Miguel Angel Tapiero Escobar 
+
 **Curso:** Formación en Ciencia de Datos - Alura Latam
