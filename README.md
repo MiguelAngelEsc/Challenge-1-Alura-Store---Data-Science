@@ -1,33 +1,80 @@
-# Challenge N° 1 |Alura-Store| Data-Science
-## Primer Challenge de la ruta de 'Ciencia de Datos'.
+# 📊 Challenge N° 1 | Alura Store | Data Science
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Pandas](https://img.shields.io/badge/Library-Pandas-150458)
+![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-orange)
+![Status](https://img.shields.io/badge/Status-Finalizado-green)
 
-Durante este desafío, ayudarás al Sr. Juan a decidir qué tienda de su cadena Alura Store debe vender para iniciar un nuevo emprendimiento. Para ello, analizarás datos de ventas, rendimiento y reseñas de las 4 tiendas de Alura Store. El objetivo es identificar la tienda menos eficiente y presentar una recomendación final basada en los datos.
+## 📝 Descripción del Proyecto
 
-Lo que practicarás:
+Este proyecto forma parte del primer desafío de la ruta de **Ciencia de Datos** de Alura Latam. 
 
-Cargue y manipule datos CSV con la biblioteca Pandas.
+El objetivo principal es actuar como consultor de datos para el **Sr. Juan**, dueño de la cadena de tiendas "Alura Store". El negocio necesita liquidez para un nuevo emprendimiento y se debe tomar una decisión estratégica basada en datos: **¿Cuál de las 4 sucursales debe ser vendida?**
 
-Cree visualizaciones de datos con la biblioteca Matplotlib.
+Para responder a esta pregunta, se realizó un análisis exhaustivo de ventas, rendimiento financiero, satisfacción del cliente y eficiencia logística.
 
-Analice métricas como ingresos, reseñas y rendimiento de ventas.
+## 🎯 Objetivos
 
-Requisitos:
+* Consolidar y limpiar bases de datos dispersas (archivos CSV).
+* Analizar métricas clave: Ingresos totales, costos de envío, calificaciones y mix de productos.
+* Identificar patrones de comportamiento en cada sucursal.
+* Generar visualizaciones impactantes para la toma de decisiones.
+* Presentar una recomendación final justificada.
 
-Analizar datos de la tienda:
+## 🛠️ Tecnologías y Herramientas
 
-Debes evaluar información como los ingresos, las categorías más vendidas, las reseñas de los clientes, los productos más vendidos y el envío promedio.
+* **Python:** Lenguaje principal.
+* **Pandas:** Manipulación y limpieza de DataFrames.
+* **Matplotlib / Seaborn:** Generación de gráficos (Barras, Líneas, Mapas de calor).
+* **Folium:** Visualización geoespacial (Mapas interactivos).
+* **Jupyter Notebook / Google Colab:** Entorno de desarrollo.
 
+## 📂 Estructura de los Datos
 
+El análisis se basó en 4 datasets correspondientes a cada tienda, conteniendo las siguientes variables:
 
-Crear gráficos para visualización:
+| Variable | Descripción |
+| :--- | :--- |
+| `Tienda` | Identificador de la sucursal (1, 2, 3, 4) |
+| `Producto` | Nombre del artículo vendido |
+| `Categoría` | Clasificación del producto (Muebles, Electrónicos, etc.) |
+| `Precio` | Valor de venta del producto |
+| `Costo de envío` | Costo logístico asociado a la venta |
+| `Calificación` | Rating dado por el cliente (1 a 5) |
+| `Lat/Lon` | Coordenadas geográficas de la venta |
 
-Decide qué tipos de gráficos utilizar para presentar los resultados de forma clara y visual.
+## 📊 Metodología del Análisis
 
-Mínimo de 3 gráficos diferentes, que pueden incluir gráficos de barras, circulares, de dispersión y otros.
+1.  **Carga e Integración:** Unificación de los archivos `tienda_1.csv` a `tienda_4.csv` en un único DataFrame.
+2.  **Limpieza de Datos:** Verificación de tipos de datos y valores nulos.
+3.  **Análisis Exploratorio (EDA):**
+    * Cálculo de ingresos totales por tienda.
+    * Comparativa de costos de envío promedio.
+    * Evaluación de satisfacción del cliente (Promedio de calificaciones).
+    * Identificación de productos *Top* y *Bottom* performers.
+4.  **Visualización:** Creación de gráficos comparativos y mapas de distribución geográfica.
 
+## 💡 Hallazgos y Recomendación
 
+Tras el análisis, se determinó que la **Tienda 4** es la candidata ideal para la venta debido a:
+* **Menor Facturación:** Es la tienda con los ingresos totales más bajos del grupo.
+* **Estancamiento:** No lidera ni en volumen de ventas ni en calidad de servicio (calificación promedio).
+* **Dependencia:** Su catálogo de ventas exitosas está menos diversificado que el de la tienda líder (Tienda 1).
 
-Enviar una recomendación:
+> **Recomendación:** Vender la Tienda 4 y reinvertir el capital en mejorar la logística de la Tienda 1 y fidelizar a los clientes de la Tienda 3.
 
-Después del análisis, escriba un texto explicando a qué tienda debería vender el Sr. João y por qué, basándose en los datos presentados.
+## 🚀 Cómo ejecutar este proyecto
+
+1.  Clona el repositorio:
+    ```bash
+    git clone [URL_DE_TU_REPOSITORIO]
+    ```
+2.  Instala las dependencias:
+    ```bash
+    pip install pandas matplotlib seaborn folium
+    ```
+3.  Abre el notebook en tu entorno favorito (Jupyter o Colab) y ejecuta las celdas secuencialmente.
+
+---
+**Autor:** [Tu Nombre]  
+**Curso:** Formación en Ciencia de Datos - Alura Latam
